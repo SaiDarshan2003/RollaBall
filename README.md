@@ -1,7 +1,7 @@
 # RollaBall
 
 ## Aim:
-
+To create a roling ball in Unity Hub using C# Program.
 ## Algorithm:
 
 1. File -> Scene -> Select the scene -> Save as-> New folder(Scenes)-> File name (MiniGame)

@@ -46,47 +46,32 @@ Double click the PlayerController file and type the coding
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class movement : MonoBehaviour
-{
+public class movement : MonoBehaviour{
 public float XForce = 5.0f;
 public float ZForce = 5.0f;
 public float YForce = 200f;
-
-// Start is called before the first frame update
 void Start()
-{
-
-}
-
-// Update is called once per frame
-void Update()
-{
+{}
+void Update(){
 float X = 0.0f;
-if (Input.GetKey(KeyCode.A))
-{
+if (Input.GetKey(KeyCode.A)){
 X = X - XForce;
 }
-if(Input.GetKey(KeyCode.D))
-{
+if(Input.GetKey(KeyCode.D)){
 X = X + XForce;
 }
 float Z = 0.0f;
-if(Input.GetKey(KeyCode.W))
-{
+if(Input.GetKey(KeyCode.W)){
 Z = Z + ZForce;
 }
-if (Input.GetKey(KeyCode.S))
-{
+if (Input.GetKey(KeyCode.S)){
 Z = Z - ZForce;
 }
 float Y = 0.0f;
-if (Input.GetKeyDown(KeyCode.Space))
-{
+if (Input.GetKeyDown(KeyCode.Space)){
 Y = YForce;
 }
 GetComponent().AddForce(X, Y, Z);
-
 }
 }
 ```

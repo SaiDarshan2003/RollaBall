@@ -1,5 +1,4 @@
-# RollaBall
-
+# Roll a Ball
 ## Aim:
 To create a roling ball in Unity Hub using C# Program.
 ## Algorithm:
@@ -43,10 +42,6 @@ Copy the PlayerController and drag to Script folder
 Double click the PlayerController file and type the coding
 
 ## Program:
-```
-PROGRAM DEVELOPED BY: SAI DARSHAN G
-REGISTER NUMBER: 212221240047
-```
 ```
 using System.Collections;
 using System.Collections.Generic;
@@ -97,6 +92,5 @@ GetComponent().AddForce(X, Y, Z);
 ```
 ## Output:
 ![inp](1.png)
-![inp](2.png)
 ## Result:
-A Rolling  ball has been created successfully
+A Rolling  ball has been created successfully.

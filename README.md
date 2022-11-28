@@ -76,6 +76,6 @@ GetComponent().AddForce(X, Y, Z);
 }
 ```
 ## Output:
-![inp](1.png)
+![inp](2.png)
 ## Result:
 A Rolling  ball has been created successfully.
